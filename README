@@ -1,0 +1,25 @@
+Script : download_oisst.py
+Developer : Kosei Ohara
+Update : 2024/06/12
+
+Environment
+    Tested on gale (2024/06/12)
+    Python 3.7.7
+
+
+Data
+    
+    OISST data provided by NOAA is downloaded.
+    Data format is NetCDF, grid size is 0.25 degree, temporal resolution is 1 day.
+
+
+Setting
+
+    Just define the initial and final datetime of download period.
+    Data between these dates are downloaded.
+    If data file has already been exist, download command is skipped.
+
+    Check the URL before executing this script.
+    
+
+
