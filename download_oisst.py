@@ -59,7 +59,7 @@ def wget_dwnld(where, ini_datetime, fin_datetime):
         present = present + datetime.timedelta(days=1)
 
 
-ini = datetime.datetime(2024,  5, 28)
-fin = datetime.datetime(2024,  5, 28)
+ini = datetime.datetime(2024,  7, 22)
+fin = datetime.datetime(2024, 11, 30)
 wget_dwnld('/mnt/jet12/OISST/NetCDF', ini, fin)
 
